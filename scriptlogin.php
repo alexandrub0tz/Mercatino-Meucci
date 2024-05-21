@@ -26,7 +26,7 @@ if($username != null && $password != null){
         $dbPassword = $row["password"];
 
         // Controllo che la password sia corretta
-        if(password === $dbPassword){
+        if($password === $dbPassword){
             // Se la password è corretta, faccio il redirect
             $_SESSION["username"] = $username;
             header("Location: home.html");

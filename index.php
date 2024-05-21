@@ -13,7 +13,7 @@
         <input type="submit">
     </form>
 
-    <a href="./pagina_registrazione.php">vai a registrazione</a>  
+    <a href="./registrazione.php">vai a registrazione</a>  
 
 </body>
 </html>
